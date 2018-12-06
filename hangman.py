@@ -9,7 +9,7 @@ print(' '.join(display))
 print()
 count = 0
 while count < len(list(names[0])):
-	guess = input('Please guess a %d letter: '% len(list(names[0])))
+    guess = input('Please guess a %d letter: '% len(list(names[0])))
     guess = guess.lower()
     print(count)
     for i in range(len(list(names[0]))):
