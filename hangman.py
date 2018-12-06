@@ -24,3 +24,4 @@ if feedback == 'y' or feedback == 'yes'or  feedback == 'Yes':
     print('Thanks for feedback!!!')
 else:
     print('Ok will try to improve this project!')
+print("Thanks for playing")
