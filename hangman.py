@@ -19,3 +19,8 @@ while count < len(list(names[0])):
     print(' '.join(display))
     print()
 print("Well done,you guessed the word")
+feedback = input('Do you like this game [y]n')
+if feedback == 'y' or 'yes'or 'Yes':
+    print('Thanks for feedback!!!')
+else:
+    print('Ok will try to improve this project!')
